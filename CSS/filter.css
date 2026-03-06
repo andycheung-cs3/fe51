@@ -23,5 +23,5 @@
     /* filter: sepia(100%); */
     filter: grayscale(100%) blur(5px) sepia(50%);
     /*reset filter*/
-    filter:none;
+    /* filter:none; */
  }

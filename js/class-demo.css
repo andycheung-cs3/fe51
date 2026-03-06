@@ -1,0 +1,15 @@
+.hidden {
+    display: none;
+}
+.card {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    padding: 0;
+}
+.dark {
+    background: #333;
+    color: #fff;
+}
+h1 {
+    /* color: red; */
+}

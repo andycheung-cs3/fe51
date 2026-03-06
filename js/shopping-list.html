@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./shopping-list.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping List</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+            <img src="./svg123.svg" alt="" />
+            </div>
+            <h1 id="app-title">Shopping List</h1>
+            <a href="https://google.com">google</a>
+            <a href="https://youtube.com">youtube</a>
+        </header>
+        <form id="item-form" >
+            <div class="form-control">
+                <input type="text" id="item-input" class="form-input" name="item" placeholder="Enter Item">
+            </div>
+            <!--select input-->
+            <!-- <select name="priority" id="priority-input" class="form-input">
+                <option value="0">Select priority</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select> -->
+            <!--checkbox input-->
+            <!-- <input type="checkbox" id="checkbox" />Recurring Item
+            <br /> -->
+            <div class="form-control">
+                <button class="btn" type="submit">
+                    <i class="fa-solid fa-plus"></i>Add Item
+                </button>
+            </div>
+        </form>
+        <div class="filter">
+            <input type="text" class="form-input-filter" id="filter" placeholder="Filter Items" />
+            <ul id="item-list" class="items parent">
+                <li class="item">Apple
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li class="item">Orange
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li class="item">Pear
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+                <li class="item">Banana
+                    <button class="remove-item btn-link text-red">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </li>
+            </ul>
+            <button id="clear" class="btn-clear">Clear all</button>
+        </div>
+    </div>
+    <!-- <script src="./shopping-list.js"></script> -->
+    <!-- <script src="./1.shopping-list.js"></script> -->
+    <!-- <script src="./2.select-element.js"></script> -->
+    <!-- <script src="./3.select nodelist.js"></script> -->
+    <!-- <script src="./4. select multiple.js"></script> -->
+    <!-- <script src="./5. traversing element.js"></script> -->
+    <!-- <script src="./6. createElement.js"></script> -->
+    <!-- <script src="./7. refactor-createElement.js"></script> -->
+    <!-- <script src="./8.insert-element.js"></script> -->
+    <!-- <script src="./9. replace-item.js"></script> -->
+    <!-- <script src="./10. remove-item.js"></script> -->
+     <!--class-demo.html-->
+    <!-- <script src="./11.css-class.js"></script> -->
+    <!-- <script src="./12.event-listener.js"></script> -->
+    <!-- <script src="./13.mouse-event.js"></script> -->
+    <!-- <script src="./14. object-event.js"></script> -->
+    <!-- <script src="./15. keyboard.js"></script> -->
+    <!-- <script src="./16. input-event.js"></script> -->
+    <!-- <script src="./17. form.js"></script> -->
+    <script src="./18. event-bubbling.js"></script>
+</body>
+</html>
